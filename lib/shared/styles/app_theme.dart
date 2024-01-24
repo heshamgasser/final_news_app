@@ -26,8 +26,11 @@ class AppTheme {
 
     textTheme: TextTheme(
       titleLarge: AppText.titleLarge,
+      titleMedium: AppText.titleMedium,
+      titleSmall: AppText.titleSmall,
       displayLarge: AppText.displayLarge,
-      displayMedium: AppText.displayMedium
+      displayMedium: AppText.displayMedium,
+      displaySmall: AppText.displaySmall,
     ),
 
   );

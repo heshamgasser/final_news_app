@@ -9,6 +9,18 @@ class AppText {
     color: Colors.white,
   );
 
+  static TextStyle titleMedium = GoogleFonts.exo(
+    fontSize: 14.sp,
+    color: Colors.white,
+    fontWeight: FontWeight.bold
+  );
+
+  static TextStyle titleSmall = GoogleFonts.poppins(
+      fontSize: 14.sp,
+      fontWeight: FontWeight.bold,
+      color: AppColor.titleColor
+  );
+
 
   static TextStyle displayLarge = GoogleFonts.poppins(
     fontSize: 22.sp,
@@ -20,4 +32,10 @@ class AppText {
     fontWeight: FontWeight.bold,
     color: AppColor.blueColor
   );
+  static TextStyle displaySmall = GoogleFonts.poppins(
+    fontSize: 13.sp,
+    fontWeight: FontWeight.bold,
+    color: AppColor.greyColor
+  );
+
 }
